@@ -1,10 +1,15 @@
 <div>
+    <style>
+        nav svg{
+            height: 20px;
+        }
+    </style>
   <div class="contanainer">
       <did class="row">
           <div class="col-md-12">
               <div class="card">
                   <div class="card-header">
-                      <h3>All Useers</h3>
+                      <h3>All Users</h3>
                   </div>
                   <div class="body">
                       <table class="table table-striped">
@@ -26,6 +31,7 @@
                               @endforeach
                           </tbody>
                       </table>
+                      {{ $users->links() }}
                   </div>
               </div>
           </div>
