@@ -32,6 +32,10 @@
       $('#form-upload')[0].reset();
     });
 
+    window.livewire.on('imagesUploaded',()=>{
+      $('#uploads-images')[0].reset();
+    });
+
 
   </script>
 </body>
