@@ -4,7 +4,7 @@
             height: 20px;
         }
     </style>
-  <div class="contanainer">
+  <div class="container">
       <did class="row">
           <div class="col-md-12">
               <div class="card">
